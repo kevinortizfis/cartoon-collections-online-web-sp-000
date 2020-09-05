@@ -10,7 +10,7 @@ def summon_captain_planet(elementals)
   i = 0
   calls = []
   while i < elementals.length
-    calls << "#{elementals[i].titlize}!"
+    calls << "#{elementals[i].titleize}!"
     i += 1
   end
   calls
