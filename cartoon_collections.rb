@@ -24,7 +24,7 @@ def long_planeteer_calls(calls)
       i += 1
     end
   if fourplus == true
-    puts true
+    true
   end
 end
 
