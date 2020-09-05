@@ -28,7 +28,7 @@ def long_planeteer_calls(calls)
       i += 1
     end
     end
-    fourplus.true?
+    fourplus.true
 end
 
 def find_the_cheese# code an argument here
