@@ -29,7 +29,11 @@ def long_planeteer_calls(calls)
 fourplus != []
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(words)
+  i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
+  while i < words.length
+    if words[i] == cheese_types[1] or words[i] == cheese_types[0] or words[i] == cheese_types[2]
+      return words[i]
+    else i += 1
 end
