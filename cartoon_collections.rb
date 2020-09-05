@@ -30,8 +30,7 @@ def long_planeteer_calls(calls)
     end
     if fourplus.all?(false)
       false
-    else true
-    end
+        end
 end
 
 def find_the_cheese# code an argument here
