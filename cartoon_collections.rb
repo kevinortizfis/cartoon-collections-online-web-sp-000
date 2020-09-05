@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)
   i = 0
   names = []
   while i < dwarves.length
-    puts dwarves[i]
+    puts "#{i}" + "#{dwarves[i]}"
     i += 1
   end
 end
