@@ -3,6 +3,7 @@ def roll_call_dwarves(dwarves)
   names = []
   while i < dwarves.length
     puts dwarves[i]
+    i += 1
   end
 end
 
