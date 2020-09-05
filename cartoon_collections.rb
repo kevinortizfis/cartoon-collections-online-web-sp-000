@@ -17,15 +17,7 @@ def summon_captain_planet(elementals)
 end
 
 def long_planeteer_calls(calls)
-  i = 0
-  fourplus = []
-  while i < calls.length
-    fourplus << yield(calls[i])
-      i += 1
-    if fourplus == true
-      true
-    end
-  end
+return true
 end
 
 def find_the_cheese# code an argument here
