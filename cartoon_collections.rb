@@ -20,7 +20,11 @@ def long_planeteer_calls(calls)
   i = 0
   fourplus = []
   while i < calls.length
-    
+    yield(calls[i])
+    if yield(calls[i]) == true
+      return calls[i]
+    else
+      i += 1
 end
 
 def find_the_cheese# code an argument here
