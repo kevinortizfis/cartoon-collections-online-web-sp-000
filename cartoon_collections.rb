@@ -37,6 +37,6 @@ def find_the_cheese(words)
       return words[i]
     else i += 1
     end
-    nil
+    return
   end
 end
