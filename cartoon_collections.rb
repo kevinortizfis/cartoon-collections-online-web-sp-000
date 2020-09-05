@@ -28,7 +28,7 @@ def long_planeteer_calls(calls)
   end
   if fourplus == []
     false
-  else false
+  else true
   end
 end
 
