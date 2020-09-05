@@ -30,6 +30,7 @@ def long_planeteer_calls(calls)
     end
     if fourplus.all?(false)
       return false
+    else true
     end
 end
 
