@@ -23,6 +23,7 @@ def long_planeteer_calls(calls)
     if calls[i].length >= 4
       fourplus << true
       i += 1
+    else i += 1
     end
   end
 end
