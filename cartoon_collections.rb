@@ -11,7 +11,7 @@ def summon_captain_planet(elementals)
   i = 0
   calls = []
   while i < elementals.length
-
+    
 end
 
 def long_planeteer_calls# code an argument here
