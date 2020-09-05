@@ -36,4 +36,6 @@ def find_the_cheese(words)
     if words[i] == cheese_types[1] or words[i] == cheese_types[0] or words[i] == cheese_types[2]
       return words[i]
     else i += 1
+    end
+    nil
 end
