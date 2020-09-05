@@ -24,6 +24,7 @@ def long_planeteer_calls(calls)
       fourplus << true
       i += 1
     end
+    i += 1
     end
 end
 
