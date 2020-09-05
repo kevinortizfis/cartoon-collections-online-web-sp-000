@@ -22,6 +22,7 @@ def long_planeteer_calls(calls)
   while i < calls.length
     fourplus << yield(calls[i])
       i += 1
+    end
   if fourplus == true
     true
   end
